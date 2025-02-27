@@ -381,6 +381,8 @@ let targets: [Target] = [
     .target(
         name: "TuistMCP",
         dependencies: [
+            "TuistSupport",
+            .product(name: "MCPServer", package: "mcp-swift-sdk"),
         ],
         swiftSettings: [
             .define("MOCKING", .when(configuration: .debug)),
@@ -408,7 +410,7 @@ let targets: [Target] = [
 
 let package = Package(
     name: "tuist",
-    platforms: [.macOS(.v13)],
+    platforms: [.macOS(.v14)],
     products: [
         .executable(name: "tuistbenchmark", targets: ["tuistbenchmark"]),
         .executable(name: "tuistfixturegenerator", targets: ["tuistfixturegenerator"]),
