@@ -1,5 +1,5 @@
 {
-  "originHash" : "36154c6ba020bbe10f2f3af53d48bbd00fffb61236628f900b538d4c23f5a503",
+  "originHash" : "af70dc75bae3204ff05d0ab8a522206b170a69d8d89223ca402ca935f483dd48",
   "pins" : [
     {
       "identity" : "aexml",
@@ -113,7 +113,6 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/gsabran/mcp-swift-sdk",
       "state" : {
-        "branch" : "main",
         "revision" : "a436420c8807a54ef10c0e035bdfbcb2733996ec"
       }
     },
@@ -266,8 +265,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ajevans99/swift-json-schema",
       "state" : {
-        "revision" : "707fc4c2d53138e8fbb4ee9e6669b050ba4b2239",
-        "version" : "0.3.2"
+        "revision" : "0245656588b326abe1f331e5868bd211f8c7655f",
+        "version" : "0.3.1"
       }
     },
     {
@@ -347,8 +346,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/swiftlang/swift-syntax.git",
       "state" : {
-        "revision" : "64889f0c732f210a935a0ad7cda38f77f876262d",
-        "version" : "509.1.1"
+        "revision" : "0687f71944021d616d34d922343dcef086855920",
+        "version" : "600.0.1"
       }
     },
     {
